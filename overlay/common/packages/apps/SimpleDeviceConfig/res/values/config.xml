@@ -27,8 +27,6 @@
         <!-- Keep up to 7 days of permission usage history -->
         <item>privacy/discrete_history_cutoff_millis=604800000</item>
 
-        <!-- Use new privacy indicators for location -->
-        <item>privacy/location_indicators_enabled=true</item>
         <!-- Allow users to disable location indicators in Developer Options -->
         <item>privacy/location_indicator_settings_enabled=true</item>
 
@@ -56,5 +54,10 @@
 
         <!-- Disable always screen on -->
         <item>attention_manager_service/keep_screen_on_enabled=false</item>
+    </string-array>
+
+    <string-array name="configs_base_soft">
+        <!-- Use new privacy indicators for location -->
+        <item>privacy/location_indicators_enabled=true</item>
     </string-array>
 </resources>
