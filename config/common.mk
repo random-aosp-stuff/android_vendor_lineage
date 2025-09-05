@@ -245,6 +245,12 @@ endif
 # Audio files
 $(call inherit-product, vendor/lineage/audio/audio.mk)
 
+
+# Lindroid
+ifeq ($(TARGET_BUILD_LINDROID),true)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
+endif
+
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.theme=glif_v4 \
