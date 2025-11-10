@@ -148,7 +148,8 @@ PRODUCT_PACKAGES += \
 ifeq ($(PRODUCT_IS_ATV),)
 PRODUCT_PACKAGES += \
     ExactCalculator \
-    Jelly
+    TrichromeChromeDualArch \
+    TrichromeWebViewDualArch
 endif
 
 ifeq ($(PRODUCT_IS_AUTOMOTIVE),)
